@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | NewGen Smart Garage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient-shape ambient-shape-one"></div>
+  <div class="ambient-shape ambient-shape-two"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">NewGen Smart Garage</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="owner.html">Owner</a>
+        <a href="contact.html" class="nav-cta">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-shell">
+    <section class="page-hero reveal">
+      <p class="eyebrow">Contact Us</p>
+      <h1>Let us know your bike issue and we will help quickly.</h1>
+      <p>
+        Reach us by call, message, or form. Our team responds fast and can guide you to the best
+        low-cost service option for your 2-wheeler.
+      </p>
+    </section>
+
+    <section class="contact-layout reveal">
+      <aside class="contact-card">
+        <h2>Direct Contact</h2>
+        <p><strong>Phone:</strong> <a href="tel:+919000012345">+91 90000 12345</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/919000012345">Chat with us</a></p>
+        <p><strong>Email:</strong> <a href="mailto:hello@newgensmartgarage.com">hello@newgensmartgarage.com</a></p>
+        <p><strong>Address:</strong> 14 Service Lane, City Center, New Delhi</p>
+        <p><strong>Hours:</strong> Mon-Sat, 8:30 AM - 8:00 PM</p>
+        <div class="note">
+          For urgent breakdowns, call directly for fastest support.
+        </div>
+      </aside>
+
+      <form class="contact-form" id="contact-form" data-whatsapp-number="919000012345" novalidate>
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" required placeholder="Your name">
+
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" type="tel" required placeholder="+91 XXXXX XXXXX">
+
+        <label for="bike">Bike Model</label>
+        <input id="bike" name="bike" type="text" placeholder="Example: Honda Activa 6G">
+
+        <label for="service">Service Needed</label>
+        <select id="service" name="service">
+          <option value="">Select one</option>
+          <option>General Service</option>
+          <option>Diagnostics</option>
+          <option>Electrical Repair</option>
+          <option>Engine Work</option>
+          <option>Emergency Breakdown</option>
+        </select>
+
+        <label for="message">Issue Description</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell us what is happening with your bike"></textarea>
+
+        <button class="btn btn-primary" type="submit">Send on WhatsApp</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>NewGen Smart Garage</h3>
+        <p>Affordable, technology-backed 2-wheeler servicing with honest guidance and skilled repair.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="about.html">About Us</a>
+        <a href="features.html">Features</a>
+        <a href="owner.html">Owner</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <p>Call: +91 90000 12345</p>
+        <p>Email: hello@newgensmartgarage.com</p>
+        <p>Mon-Sat: 8:30 AM - 8:00 PM</p>
+      </div>
+    </div>
+    <p class="copyright">Copyright <span class="year"></span> NewGen Smart Garage. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
